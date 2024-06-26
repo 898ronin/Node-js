@@ -1,0 +1,16 @@
+.carousel {
+    max-height: 600px; /* Ajusta la altura máxima del carrusel */
+    overflow: hidden;  /* Oculta cualquier contenido que se desborde */
+    font-family: 'Roboto', sans-serif; /* Cambia el Font */
+  }
+  
+  .carousel img {
+    object-fit: cover; /* Mantiene la relación de aspecto de la imagen */
+    height: 600px;     /* Ajusta la altura de las imágenes dentro del carrusel */
+    width: 100%;       /* Hace que las imágenes ocupen todo el ancho del contenedor */
+  }
+  
+
+  .container-fluid {
+    font-family: 'Roboto', sans-serif;
+  }

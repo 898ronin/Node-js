@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 
+
 const Registro = () => {
   return (
     <div>
@@ -29,7 +30,80 @@ const Registro = () => {
         </div>
       </nav>
       
-      
+      {/*Main*/}
+      <section class="hero is-medium">
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns is-centered">
+              <div class="column is-5-tablet is-4-desktop is-3-widescreen">
+                <form action="" class="box">
+                  <div class="field"></div>
+                    <label for="" class="label">Email</label>
+                    <div class="control has-icons-left">
+                      <input type="email" placeholder="usuario@gmail.com" class="input" required></input>
+                      <span class="icon is-small is-left">
+                        <i class="fa fa-envelope"></i>
+                      </span>
+                    <label for="" class="label">Confirmar Email</label>
+                    <div class="control has-icons-left">
+                      <input type="email" placeholder="usuario@gmail.com" class="input" required></input>
+                      <span class="icon is-small is-left">
+                        <i class="fa fa-envelope"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label for="" class="label">Constraseña</label>
+                    <div class="control has-icons-left">
+                      <input type="password" placeholder="*******" class="input" required></input>
+                      <span class="icon is-small is-left">
+                        <i class="fa fa-lock"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label for="" class="label">Confirmar Constraseña</label>
+                    <div class="control has-icons-left">
+                      <input type="password" placeholder="*******" class="input" required></input>
+                      <span class="icon is-small is-left">
+                        <i class="fa fa-lock"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label for="" class="label">RUT</label>
+                    <div class="control has-icons-left">
+                      <input type="search" placeholder="xx.xxx.xxx-x" class="input" required></input>
+                      <span class="icon is-small is-left">
+                        <i class="fa fa-lock"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <div class="field">
+                      <button id="modal_button" class="js-modal-trigger button is-success" data-target="modal-js-example">Terminos y Condiciones</button>
+                    </div>
+                    <label for="" class="checkbox">
+                      <input id="termsCheckbox" type="checkbox"></input>
+                      Aceptar Terminos y Condiciones
+                    </label>
+                  </div>
+                  <div class="field">
+                    <button class="button is-success">
+                      Registrarme
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <link rel='stylesheet'
+		href= 
+    'https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css'></link>
+
       
       {/* Pié de página */}
       <footer class="small bg-light">
@@ -105,5 +179,8 @@ const Registro = () => {
     </div>
     );
 }
+
+ 
+
 
 export default Registro;

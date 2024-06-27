@@ -23,7 +23,7 @@ const Registro = () => {
                 <a className="nav-link" href="/registro">Registro</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/acerca">Acerca</a>
+                <a className="nav-link" href="/acerca">Preguntas Frecuentes</a>
               </li>
             </ul>
           </div>
